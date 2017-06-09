@@ -1,0 +1,286 @@
+/* ================================= 
+  HOVER ME
+==================================== */
+.hover-me a {
+    width: 23%;
+    float: left;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    margin: 1%;
+}
+
+.hover-me p {
+    display: block;
+    clear: both;
+}
+
+/*Rotate*/
+.rotate-me{
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.rotate-me:hover {
+    background-color:transparent;
+    color:#fff;
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 1s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 1s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/*Shake*/
+.shake-me:hover {
+    position :relative;
+    -webkit-animation: mymove .1s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove .1s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 10px;}
+     75%   {left: 0px;}
+    100%  {left: 0px;}
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  0%   {left: 0px;}
+    25%  {left: 10px;}
+     75%   {left: 0px;}
+    100%  {left: 0px;}
+}
+
+/*Shake*/
+.shake-me-top:hover {
+    position :relative;
+    -webkit-animation: shaketop .1s infinite; /* Safari 4.0 - 8.0 */
+    animation: shaketop .1s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes shaketop {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+     75%   {top: 0px;}
+    100%  {top: 0px;}
+
+}
+
+/* Standard syntax */
+@keyframes shaketop {
+    0%   {top: 0px;}
+    25%  {top: 10px;}
+     75%   {top: 0px;}
+    100%  {top: 0px;}
+}
+
+/*Grow*/
+.grow-me {
+    transition: transform .1s;
+}
+a.grow-me:hover {
+    transform: scale(1.15);
+    text-decoration: none;
+    cursor:pointer;
+}
+
+/*Shrink*/
+.shrink-me{
+    transition: transform .1s;
+}
+a.shrink-me:hover {
+    transform: scale(.8);
+    text-decoration: none;
+    cursor:pointer;
+}
+
+/*Pulse*/
+.pulse-me:hover {
+    position :relative;
+    -webkit-animation: pulse .5s infinite; /* Safari 4.0 - 8.0 */
+    animation: pulse .5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(1.1);}
+     75%   {transform: scale(1);}
+    100%  {transform: scale(1);}
+
+}
+
+/* Standard syntax */
+@keyframes pulse {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(1.1);}
+     75%   {transform: scale(1);}
+    100%  {transform: scale(1);}
+}
+
+/*Skew me*/
+.skew-me {
+  transition: transform 1s;
+}
+.skew-me:hover {
+  -ms-transform: skewX(-20deg); /* IE 9 */
+  -webkit-transform: skewX(-20deg); /* Safari */
+  transform: skewX(-20deg); /* Standard syntax */
+}
+
+/*Disappear*/
+.disappear-me:hover{
+ -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+/*Disappear*/
+.fade-me:hover{
+ -webkit-transition: background 1s, color 1s ease-in-out;
+    -moz-transition: background 1s, color 1s ease-in-out;
+    -ms-transition: background 1s, color 1s ease-in-out;
+    -o-transition: background 1s, color 1s ease-in-out;
+    background: #333;
+    color:#fff;
+}
+
+/*Sweep right*/
+.sweep-me-right{
+  box-shadow: inset 0 0 0 0 #333;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.sweep-me-right:hover{
+ box-shadow: inset 600px 0 0 0 #333;
+    color: #FFF;
+}
+
+/*Sweep Half*/
+.sweep-me-half{
+  box-shadow: inset 0 0 0 0 #333;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.sweep-me-half:hover{
+ box-shadow: inset 80px 0 0 0 #333;
+    color: #e2e2e2;
+}
+
+/*Sweep Top*/
+.sweep-me-top{
+  box-shadow: inset 0 0 0 0 #333;
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  transition: all ease 2s;
+}
+.sweep-me-top:hover{
+ box-shadow: inset 0px 140px 0 0 #333;
+    color: #e2e2e2;
+}
+
+/*Sweep Radial*/
+.sweep-me-radial{
+  box-shadow: inset 0 0 0 0 #333;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.sweep-me-radial:hover{
+ box-shadow: inset 0 0 0px 600px #333;
+    color: #FFF;
+}
+
+/*Color me*/
+.color-me:hover {
+    position :relative;
+    -webkit-animation: background 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: background 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes background {
+    0%   {background: #8DD3F2;}
+    25%  {background: #FFCF74;}
+    50%   {background: #8ACBA5;}
+    75%  {background: #333;}
+    100%  {background: #E6E5E5;}
+
+}
+
+/* Standard syntax */
+@keyframes background {
+    0%   {background: #8DD3F2;}
+    20%  {background: #FFCF74;}
+    50%   {background: #8ACBA5;}
+    75%  {background: #333;}
+    100%  {background: #E6E5E5;}
+}
+
+/*Alternate me*/
+.flash-me:hover {
+    position :relative;
+    -webkit-animation: alternate-background .5s infinite; /* Safari 4.0 - 8.0 */
+    animation: alternate-background .5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes alternate-background {
+    0%   {background: transparent; color:transparent;}
+    25%  {background: #fff; color:#333;}
+    75%   {background: transparent; color:transparent;}
+    100%  {background: transparent; color:transparent;}
+
+}
+
+/* Standard syntax */
+@keyframes alternate-background {
+    0%   {background: transparent; color:transparent;}
+    25%   {background: #fff; color:#333;}
+    75%  {background: transparent; color:transparent;}
+    100%  {background: transparent; color:transparent;}
+}
+
+/*Backgroundless me*/
+.backgroundless-me:hover {
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    background: transparent;
+}
