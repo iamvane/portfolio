@@ -8,7 +8,13 @@ import './../css/hover-me.css';
 //App Components
 
 const CSS = (props) => {
+	function handleClick(e) {
+	    e.preventDefault();
+	  }
+  
   return (
+	
+
 
     <div className={"page-wrapper " + (CssData.title === 'CSS' ? 'bg-salmon' : '')}>
 		
@@ -32,25 +38,25 @@ const CSS = (props) => {
 		    	
 			    <p className="text-white bigger-p">2D Transition</p>
 
-				<a href="" className="shake-me">Shake Me Horiz</a>
-				<a href="" className="shake-me-top">Shake Me Vert</a>
-				<a href="" className="grow-me">Grow Me</a>
-				<a href="" className="shrink-me">Shrink Me</a>
-				<a href="" className="pulse-me">Pulse Me</a>
-				<a href="" className="rotate-me">Rotate Me</a>
-				<a href="" className="skew-me">Skew Me</a>
-				<a href="" className="disappear-me">Disappear Me</a>
+				<a href="" onClick={handleClick} className="shake-me">Shake Me Horiz</a>
+				<a href="" onClick={handleClick} className="shake-me-top">Shake Me Vert</a>
+				<a href="" onClick={handleClick} className="grow-me">Grow Me</a>
+				<a href="" onClick={handleClick} className="shrink-me">Shrink Me</a>
+				<a href="" onClick={handleClick} className="pulse-me">Pulse Me</a>
+				<a href="" onClick={handleClick} className="rotate-me">Rotate Me</a>
+				<a href="" onClick={handleClick} className="skew-me">Skew Me</a>
+				<a href="" onClick={handleClick} className="disappear-me">Disappear Me</a>
 
 				<p className="text-white bigger-p">Background Transition</p>
 
-				<a href="" className="sweep-me-right">Sweep Me Right</a>
-				<a href="" className="sweep-me-half">Sweep Me Half</a>
-				<a href="" className="sweep-me-top">Sweep Me Top</a>
-				<a href="" className="sweep-me-radial">Sweep Me Radial</a>
-				<a href="" className="fade-me">Fade Me</a>
-				<a href="" className="color-me">Color Me</a>
-				<a href="" className="flash-me">Flash Me</a>
-				<a href="" className="backgroundless-me">No Me</a>
+				<a href="" onClick={handleClick} className="sweep-me-right">Sweep Me Right</a>
+				<a href="" onClick={handleClick} className="sweep-me-half">Sweep Me Half</a>
+				<a href="" onClick={handleClick} className="sweep-me-top">Sweep Me Top</a>
+				<a href="" onClick={handleClick} className="sweep-me-radial">Sweep Radial</a>
+				<a href="" onClick={handleClick} className="fade-me">Fade Me</a>
+				<a href="" onClick={handleClick} className="color-me">Color Me</a>
+				<a href="" onClick={handleClick} className="flash-me">Flash Me</a>
+				<a href="" onClick={handleClick} className="backgroundless-me">No Me</a>
 			
 			</div>
 		

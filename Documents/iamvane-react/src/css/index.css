@@ -31,11 +31,6 @@ a:active{
     margin: 0 auto;
 }
 
-.container-narrower{
-    width: 670px;
-    margin: 0 auto;
-}
-
 .hidden{
   display: none;
 }
@@ -412,6 +407,10 @@ form button{
     height:220px;
     padding-top: 100px;
   }
+  .container-narrower{
+    width: 670px;
+    margin: 0 auto;
+}
 }
 
 @media (min-width: 1200px){

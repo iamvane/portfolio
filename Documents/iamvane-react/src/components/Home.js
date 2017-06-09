@@ -8,9 +8,10 @@ class Home extends Component {
   render() {
     return (
       <div className="home page-wrapper">
-         
-        <div className="container">
+        
           <Header/>
+
+          <div className="container">
           <h1>Vanessa Charles Thompson</h1>
           <p className="bigger-p">Full Stack [Javascript] Developer</p>
           <p className="text-center bigger-p cta">Select skill to interact with project</p>

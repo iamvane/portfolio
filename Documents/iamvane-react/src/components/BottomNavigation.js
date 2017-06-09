@@ -5,7 +5,7 @@ const BottomNavigation = (props) => (
 
 	<div className={"bottom-nav " + (props.title === "User Interface" ? 'coral-text' : 'text-white')}>
 			
-		<div className="col-md-6 text-right bottom-nav-item">
+		<div className="col-xs-6 text-right bottom-nav-item">
 			<Link to={props.prevlink}>
 				<img className="icon float-right" alt="arrow-left" src={require('./../img/left-arrow.png')}/>
 				Previous project
@@ -14,7 +14,7 @@ const BottomNavigation = (props) => (
 			</Link>
 		</div>
 		
-		<div className="col-md-6 border-left bottom-nav-item">
+		<div className="col-xs-6 border-left bottom-nav-item">
 			<Link to={props.nextlink}>
 				<img className="icon" alt="arrow-left" src={require('./../img/right-arrow.png')}/>
 				Next Project
