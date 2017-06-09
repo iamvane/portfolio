@@ -10,7 +10,7 @@ body{
 }
 
 .page-wrapper{
- padding-top: 15px;
+ padding-top: 10px;
 }
 
 a:hover,
@@ -135,12 +135,13 @@ a:active{
     width: 100%;
 }
 
-.portfolio-link{
-  height:220px;
-  text-align:center;
-  font-size: 1em;
-  padding-top: 100px;
+.portfolio-link {
+    height: 180px;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 80px;
 }
+
 
 .portfolio-link a{
   color:#fff;
@@ -371,11 +372,13 @@ form button{
   height:25px;
 }
 
-
+.nav > li{
+  display: inline;
+}
 .navbar-nav > li > a {
     margin-top:8px;
     margin-bottom: 8px;
-    display: inline-block !important;
+    display: inline;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
     transition: .3s ease ;
@@ -394,6 +397,9 @@ form button{
 
 /*media queries*/
 @media (min-width: 768px){
+  .page-wrapper{
+    padding-top: 15px;
+  }
   .home h1 {
     margin-top: 1.2em;
   }
@@ -403,6 +409,8 @@ form button{
   .portfolio-link{
     font-weight: 100 !important;
     font-size:1.6em;
+    height:220px;
+    padding-top: 100px;
   }
 }
 
