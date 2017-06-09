@@ -22,15 +22,15 @@ const App = () => (
 	<BrowserRouter>
 		<div>
 			<Route exact path="/" component={Home} />
-			<Route path="/portfolio/css" component={CSS} />
+			<Route path="/html" component={Html} />
+			<Route path="/css" component={CSS} />
 			<Route path="/about" component={About} />
-			<Route path="/portfolio/html" component={Html} />
-			<Route path="/portfolio/javascript" component={Javascript} />
-			<Route path="/portfolio/php" component={Php} />
-			<Route path="/portfolio/react" component={ReactLink} />
-			<Route path="/portfolio/mongo" component={Mongo} />
-			<Route path="/portfolio/ui" component={Ui} />
-			<Route path="/portfolio/wordpress" component={Wordpress} />
+			<Route path="/javascript" component={Javascript} />
+			<Route path="/php" component={Php} />
+			<Route path="/react" component={ReactLink} />
+			<Route path="/mongo" component={Mongo} />
+			<Route path="/ui" component={Ui} />
+			<Route path="/wordpress" component={Wordpress} />
 		</div>
  	</BrowserRouter>
 );

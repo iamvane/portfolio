@@ -18,7 +18,7 @@ class Home extends Component {
         </div>
         <div className="portfolio text-white">
           
-          <Link to="/portfolio/html">
+          <Link to="/html">
             <div className="portfolio-link bg-blue col-xs-6 col-md-3">
               HTML
               <div className="portfolio-description">
@@ -27,7 +27,7 @@ class Home extends Component {
             </div>
           </Link>
          
-          <Link to="/portfolio/css">
+          <Link to="/css">
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3">
               CSS
                 <div className="portfolio-description">
@@ -36,7 +36,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/php">
+          <Link to="/php">
             <div className="portfolio-link bg-green col-xs-6 col-md-3 col-md-push-3">
               PHP
               <div className="portfolio-description">
@@ -45,7 +45,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/javascript">
+          <Link to="/javascript">
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-3">
               JavaScript
                 <div className="portfolio-description">
@@ -54,7 +54,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/react">
+          <Link to="/react">
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3">
               React
               <div className="portfolio-description">
@@ -63,7 +63,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/mongo">
+          <Link to="/mongo">
             <div className="portfolio-link bg-green col-xs-6 col-md-3">
               Mongo
               <div className="portfolio-description">
@@ -72,7 +72,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/ui">
+          <Link to="/ui">
             <div className="portfolio-link bg-grey col-xs-6 col-md-3">
                 <p className="coral-text">UI</p>
               <div className="portfolio-description">
@@ -81,7 +81,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/wordpress">
+          <Link to="/wordpress">
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3">
               Wordpress
                <div className="portfolio-description">
