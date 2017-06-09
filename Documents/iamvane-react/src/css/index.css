@@ -375,7 +375,7 @@ form button{
 .navbar-nav > li > a {
     margin-top:8px;
     margin-bottom: 8px;
-    display: inline-block;
+    display: inline-block !important;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
     transition: .3s ease ;
