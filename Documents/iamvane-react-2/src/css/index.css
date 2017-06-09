@@ -1,0 +1,403 @@
+/* ================================= 
+  ELEMENT STYLES
+==================================== */
+html, body, #root, #root > [data-reactroot], .page-wrapper { 
+
+  height: 100%; 
+}
+body{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-wrapper{
+ padding-top: 15px;
+}
+
+a:hover,
+a:visited,
+a:active{
+  text-decoration:none;
+  color:#333;
+}
+.container-wide{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-narrow{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-narrower{
+    width: 670px;
+    margin: 0 auto;
+}
+
+.hidden{
+  display: none;
+}
+/* ================================= 
+  BACKGROUND COLORS
+==================================== */
+
+.bg-blue{
+  background: #8DD3F2;
+}
+
+.bg-salmon{
+  background: #FF9393;
+}
+
+.bg-light-mustard{
+  background: #FFCF74;
+}
+
+.bg-green{
+  background: #8ACBA5;
+}
+
+.bg-grey{
+  background: #E6E5E5;
+}
+
+.bg-white{
+  background: #fff;
+}
+
+.border-left{
+  border-left:1px solid #fff;
+}
+/* ================================= 
+  NAVIGATION
+==================================== */
+
+.navigation a{
+  color:#333;
+  font-weight:bold;
+}
+
+.navigation a.active {
+    border-bottom: 1px solid;
+}
+/* ================================= 
+  FONTS COLORS
+==================================== */
+.coral-text,
+.coral-text a{
+  color: #333 !important;
+}
+
+.text-white,
+.text-white a{
+  color:#fff;
+}
+
+/* ================================= 
+  FONTS SiZES
+==================================== */
+.big-p{
+  font-size:1.1em;
+}
+
+.bigger-p{
+  font-size:1.2em;
+}
+
+.float-right{
+  float:right !important;
+}
+
+/* ================================= 
+  PADDING
+==================================== */
+
+
+/* ================================= 
+  HOME
+==================================== */
+
+.home h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 1.2em;
+}
+
+.cta{
+  margin: 90px 0px 55px 0px;
+}
+
+.portofilio{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.portfolio-link{
+  height:220px;
+  text-align:center;
+  font-size:1.6em;
+  padding-top: 100px;
+  font-weight: 100;
+}
+
+.portfolio-link a{
+  color:#fff;
+  width:100%;
+  height:100%;
+}
+
+.portfolio-link a:hover {
+    cursor: pointer;
+}
+
+
+.portfolio-description{
+  color:#fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.portfolio-link:hover .portfolio-description {
+  height: 40%;
+}
+
+/* ================================= 
+  single portfolio page
+==================================== */
+
+.single-heading{
+  clear:both;
+}
+
+.single-details {
+    width: 250px;
+}
+
+.single-details p {
+    margin-bottom: 0px;
+}
+
+.single-cta {
+    background: #fff;
+    padding:3px 0px;
+    width: 220px;
+    height: 65px;
+    display: block;
+    border-radius: 10px;
+    transition: transform .1s;
+    margin-top:3px;
+}
+
+.single-cta p{
+  line-height: 17px;
+  }   
+a.single-cta:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+a.single-cta.no-effect:hover{
+    transform: scale(1);
+    cursor:default;
+}
+
+.cta-content{
+  padding:10px 10px 3px 18px;
+}
+.bitbucket p{
+  color:#1F5082;
+}
+
+.icon{
+  width:30px;
+  height:30px;
+  margin-right:8px;
+  float:left;
+
+}
+.line {
+    height: 3px;
+    width: 100%;
+    display: block;
+}
+
+
+/*form{
+  padding:30px 60px;
+  height:280px;
+}
+
+form h4 {
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+form button{
+  padding: 10px 40px;
+    background: #8dd3f2;
+    border: 1px solid #222;
+    color: #fff;
+    float: right;
+    margin-top: 40px;
+}*/
+
+
+.eco-cannabis-wrap {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.eco-cannabis-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform .1s;
+}
+
+.eco-cannabis-wrap a:hover .eco-cannabis-img{
+  transform: scale(1.05);
+
+}
+
+.mindrank-a:hover .mindrank-wrap{
+  transition: transform .1s;
+   transform: scale(1.01);
+}
+
+.mindrank{
+  padding:20px;
+  text-align:center;
+}
+
+.mindrank img{
+  width:100%;
+}
+
+.wordpress-wrap img{
+  width:100%;
+  transition: transform .1s;
+}
+
+.wordpress-anchor:hover img{
+  transform: scale(1.05);
+}
+
+/*Side Navigation*/
+
+/*#mySidenav{
+  opacity:0;
+}
+
+#mySidenav:hover{
+  opacity:1;
+}
+
+#mySidenav div {
+    top: 260px;
+    position: absolute;
+    left: -40px;
+    transition: 0.3s;
+    padding: 100px 100px 100% 20px;
+    width: 230px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav div:hover {
+    left: 0;
+}
+
+.html-link a{
+    top: 600px;
+    background-color: #fff;
+}
+
+#blog {
+    top: 320px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 380px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 440px;
+    background-color: #555
+}
+*/
+
+.bottom-nav{
+  clear:both;
+  display:block;
+  width:100%;
+  position:fixed;
+  bottom:0;
+  margin-bottom:20px;
+  opacity:0.6;
+  transition: .3s;
+}
+
+.bottom-nav:hover{
+  opacity: 1;
+}
+
+.bottom-nav-item{
+  transition:.3s;
+}
+.bottom-nav-item:hover span{
+  background: rgba(255,255,255, 0.4);
+}
+
+.bottom-nav .icon{
+  margin:10px;
+  width:25px;
+  height:25px;
+}
+
+
+.navbar-nav > li > a {
+    margin-top:8px;
+    margin-bottom: 8px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    transition: .3s ease ;
+}
+
+.navbar-nav > li > a:hover{
+  background:none;
+  opacity: 0.7;
+}
+
+/*media queries*/
+@media (min-width: 1200px){
+  .container {
+      width: 1000px;
+  }
+  .container-wide{
+     width: 1200px;
+  }
+}
+@media (min-width: 1400px){
+    .portfolio {
+      width: 1200px;
+      margin: 0 auto;
+    }
+}
