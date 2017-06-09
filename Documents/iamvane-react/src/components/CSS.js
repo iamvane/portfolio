@@ -13,8 +13,6 @@ const CSS = (props) => {
 	  }
   
   return (
-	
-
 
     <div className={"page-wrapper " + (CssData.title === 'CSS' ? 'bg-salmon' : '')}>
 		
