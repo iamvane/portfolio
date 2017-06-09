@@ -35,21 +35,21 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/portfolio/javascript">
-            <div className="portfolio-link bg-light-mustard col-xs-6 col-xs-push-6 col-md-3">
-              JavaScript
-                <div className="portfolio-description">
-                    <p><strong>HoursJs</strong> Analog clock; Use as a timer, calendar, business hours</p>
-                </div>
-            </div>
-          </Link>
-
           <Link to="/portfolio/php">
-            <div className="portfolio-link bg-green col-xs-6 col-xs-pull-6 col-md-3">
+            <div className="portfolio-link bg-green col-xs-6 col-md-3 col-md-push-3">
               PHP
               <div className="portfolio-description">
                 <p><strong>Eco Packaging Solutions</strong> for cannabis products</p>
               </div>
+            </div>
+          </Link>
+
+          <Link to="/portfolio/javascript">
+            <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-3">
+              JavaScript
+                <div className="portfolio-description">
+                    <p><strong>HoursJs</strong> Analog clock; Use as a timer, calendar, business hours</p>
+                </div>
             </div>
           </Link>
 
