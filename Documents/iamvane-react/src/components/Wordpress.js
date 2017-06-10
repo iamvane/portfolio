@@ -22,19 +22,19 @@ const Wordpress = () => (
 	    
 	    <div className="wordpress-wrap container-narrow bigger-p text-center">
 	    	<div className="col-md-4">
-	    		<a className="wordpress-anchor" href="http://bikinyoga.com/" target="_blank">
+	    		<a className="wordpress-anchor" href="http://bikinyoga.com/" rel="noopener noreferrer" target="_blank">
 		    		<p><strong>UI Design</strong></p>
 		    		<img alt="Bikin Yoga" src={require('./../img/bikin-yoga-logo.png')}/>
 	    		</a>
 	    	</div>
 	    	<div className="col-md-4">
-	    		<a className="wordpress-anchor" href="http://lessmoneystress.net/" target="_blank">
+	    		<a className="wordpress-anchor" href="http://lessmoneystress.net/" rel="noopener noreferrer" target="_blank">
 		    		<p><strong>Blog + E-commerce</strong></p>
 		    		<img alt="Less Money Stress" src={require('./../img/less-money-stress.png')}/>
 	    		</a>
 	    	</div>
 	    	<div className="col-md-4">
-	    		<a className="wordpress-anchor" href="http://www.ossetttownjuniors.co.uk/" target="_blank">
+	    		<a className="wordpress-anchor" href="http://www.ossetttownjuniors.co.uk/" rel="noopener noreferrer" target="_blank">
 	    			<p><strong>Modernization</strong></p>
 	    			<img alt="Osset Town" src={require('./../img/osset-town.png')}/>
 	    		</a>

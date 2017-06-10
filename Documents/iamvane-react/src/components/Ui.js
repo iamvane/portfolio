@@ -22,7 +22,7 @@ const Ui = () => (
 
 	<div className="container-wide">
        
-	  <a className="mindrank-a" href="https://xd.adobe.com/view/3f320ddf-4b92-40f4-8f67-f44b557909fb/" target="_blank">
+	  <a className="mindrank-a" href="https://xd.adobe.com/view/3f320ddf-4b92-40f4-8f67-f44b557909fb/" rel="noopener noreferrer" target="_blank">
         <div className="mindrank-wrap container-narrow">
         	<div className="col-md-3 mindrank">
         		<img alt="mindrank-1" src={require('./../img/mindrank-1.png')}/>

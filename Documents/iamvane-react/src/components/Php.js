@@ -23,7 +23,7 @@ const Php = (props) => {
         />
 
   	  <div className="eco-cannabis-wrap">
-  	  	<a href="https://www.ecopackagingsolutions.com/" target="_blank">
+  	  	<a href="https://www.ecopackagingsolutions.com/" rel="noopener noreferrer" target="_blank">
    			<img src={require('./../img/eco-cannabis.png')} alt="eco-cannabis" className="eco-cannabis-img"/>
     		</a>	
   		</div>
