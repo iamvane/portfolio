@@ -178,7 +178,6 @@ a:active{
 }
 
 .single-cta {
-    background: #fff;
     padding:3px 0px;
     width: 220px;
     height: 65px;
@@ -201,9 +200,6 @@ a.single-cta.no-effect:hover{
     cursor:default;
 }
 
-.cta-content{
-  padding:10px 10px 3px 18px;
-}
 .bitbucket p{
   color:#1F5082;
 }
@@ -247,7 +243,6 @@ form button{
 
 .eco-cannabis-wrap {
   position: relative;
-  width: 50%;
   margin: 0 auto;
 }
 
@@ -269,7 +264,7 @@ form button{
 }
 
 .mindrank{
-  padding:20px;
+  padding:4px;
   text-align:center;
 }
 
@@ -412,7 +407,21 @@ form button{
   .container-narrow{
     width: 800px;
     margin: 0 auto;
-  } 
+  }
+  .mindrank{
+    padding:20px;
+  }
+  .eco-cannabis-wrap {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .single-cta {
+    background: #fff;
+  }
+  .cta-content{
+    padding:10px 10px 3px 18px;
+  }
 }
 
 @media (min-width: 1200px){

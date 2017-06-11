@@ -19,7 +19,7 @@ const WordpressDesign = () => (
           ctaUrl = {WordpressDesignData.cta_url}
         />
 
-      <div className="eco-cannabis-wrap">
+      <div className="eco-cannabis-wrap text-center">
         <a href="http://bikinyoga.com/" rel="noopener noreferrer" target="_blank">
         <img src={require('./../img/bikin-yoga.png')} alt="bikin-yoga" className="eco-cannabis-img"/>
         </a>  

@@ -2,11 +2,10 @@
   HOVER ME
 ==================================== */
 .hover-me a {
-    width: 23%;
     float: left;
     background: #fff;
     color: #333;
-    padding: 10px;
+    padding: 5px;
     margin: 1%;
 }
 
@@ -231,6 +230,13 @@ a.shrink-me:hover {
     position :relative;
     -webkit-animation: background 5s infinite; /* Safari 4.0 - 8.0 */
     animation: background 5s infinite;
+}
+
+@media (min-width: 768px){
+  .hover-me a {
+      width: 23%;
+      padding: 10px;
+  }
 }
 
 /* Safari 4.0 - 8.0 */

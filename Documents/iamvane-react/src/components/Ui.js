@@ -24,16 +24,16 @@ const Ui = () => (
        
 	  <a className="mindrank-a" href="https://xd.adobe.com/view/3f320ddf-4b92-40f4-8f67-f44b557909fb/" rel="noopener noreferrer" target="_blank">
         <div className="mindrank-wrap container-narrow">
-        	<div className="col-md-3 mindrank">
+        	<div className="col-xs-3 mindrank">
         		<img alt="mindrank-1" src={require('./../img/mindrank-1.png')}/>
         	</div>
-        	 <div className="col-md-3 mindrank">
+        	 <div className="col-xs-3 mindrank">
         		<img alt="mindrank-2" src={require('./../img/mindrank-2.png')}/>
         	</div>
-        	 <div className="col-md-3 mindrank">
+        	 <div className="col-xs-3 mindrank">
         		<img  alt="mindrank-3" src={require('./../img/mindrank-3.png')}/>
         	</div>
-        	 <div className="col-md-3 mindrank">
+        	 <div className="col-xs-3 mindrank">
         		<img alt="mindrank-4" src={require('./../img/mindrank-4.png')}/>
         	</div>
         </div>
