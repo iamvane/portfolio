@@ -26,11 +26,6 @@ a:active{
     margin-left: auto;
 }
 
-.container-narrow{
-    width: 800px;
-    margin: 0 auto;
-}
-
 .hidden{
   display: none;
 }
@@ -389,6 +384,9 @@ form button{
     margin-right: -15px;
 }
 
+.color-me-heading{
+  font-size:3em;
+}
 
 /*media queries*/
 @media (min-width: 768px){
@@ -410,7 +408,11 @@ form button{
   .container-narrower{
     width: 670px;
     margin: 0 auto;
-}
+  }
+  .container-narrow{
+    width: 800px;
+    margin: 0 auto;
+  } 
 }
 
 @media (min-width: 1200px){

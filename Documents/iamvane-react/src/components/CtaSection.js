@@ -2,8 +2,13 @@ import React from 'react';
 
 //App Components
 
-const CTA = (props) => (
+const CTA = (props) => {
+	
+	function handleClick(e) {
+	    e.preventDefault();
+	  }
 
+	  return (
 	<div>
 		       
 	    <div className="container-wide">
@@ -16,11 +21,20 @@ const CTA = (props) => (
 		        
 		        <p className={(props.designTools ? '' : 'hidden')}><strong>Design Tools:</strong> {props.designTools}</p>
 
-		        <a className={"single-cta coral-text " + (props.ctaUrl ? '' : 'no-effect')} href={(props.ctaUrl ? props.ctaUrl : '')} target={(props.ctaUrl ? '_blank' : '')}>
+		        <p className={(props.projects ? '' : 'hidden')}><strong>Projects using this plugin:</strong><a href={props.projectsLink} rel="noopener noreferrer" target="_blank"> {props.projects}</a></p>
+
+		        <a className={"single-cta coral-text " + (props.ctaUrl ? '' : 'no-effect')} onClick={(props.ctaUrl ? '' : handleClick )} href={(props.ctaUrl ? props.ctaUrl : '')} target={(props.ctaUrl ? '_blank' : '')}>
 		        	        	
 		        	<div className="cta-content">
 			        	
 			        	{
+			        	(props.title === 'HTML') ?
+		       				<div>
+			       				<img className="icon" alt="visit-project" src={require('./../img/codepen.png')}/>
+			       				<p>Edit on<br/> Codepen</p>
+			       			</div>
+		       			:
+
 		       			(props.title === 'CSS') ?
 		       				<div>
 			       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
@@ -51,7 +65,7 @@ const CTA = (props) => (
 	       				(props.title === 'Wordpress') ?
 	       				<div>
 		       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
-		        			<p>Click on a project<br/> to launch site</p>
+		        			<p>Click on project<br/> to launch site</p>
 	       				</div>					
 	       				:
 	       				(props.title === 'JavaScript') ?
@@ -87,7 +101,8 @@ const CTA = (props) => (
 
 			
 	</div>
-);
+	);
+	}
 
 
 export default CTA;

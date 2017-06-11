@@ -1,11 +1,11 @@
 export const HtmlData =
   {
-    title: "JavaScript",
-    description: "Timer, Clock, Calendar",
-    technologies: "Javascript, JQuery, HTML, CSS",
+    title: "HTML",
+    description: "Color Me",
+    technologies: "HTML, CSS, Javascript",
     design_tools: "Illustrator, Experience Design",
-    prev: 'CSS',
-    next: "PHP",
+    prev: 'Wordpress-Design',
+    next: "CSS"
   };
 
 export const CssData =
@@ -24,8 +24,10 @@ export const JavascriptData =
     description: "Timer, Clock, Calendar",
     technologies: "Javascript, JQuery, HTML, CSS",
     design_tools: "Illustrator, Experience Design",
+    projects: "Red Cadillac",
+    projectsLink: "http://www.thewilltodogood.org/redcaddy/",
     prev: 'CSS',
-    next: "PHP",
+    next: "PHP"
   };
 
   export const PhpData =
@@ -46,15 +48,16 @@ export const ReactData =
       role: 'Creator',
       technologies: "React, NodeJS, Webpack, Babel, CSS, HTML",
       prev: 'Php',
-      next: "Mongo",
+      next: "Wordpress-Commerce",
       cta_url:"https://github.com/iamvane/scoreboard-react-app"
     };
 
-export const MongoData =
+export const WordpressCommerceData =
   {
-    title: "Mongo",
-    description: "Create a Collection",
-    technologies: "TBD",
+    title: "Wordpress",
+    description: "Less Money Stress, learn to control your money instead of your money controlling you.",
+    role: 'Wordpress Developer, UI Designer',
+    technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     prev: 'React',
     next: "UI",
   };
@@ -65,17 +68,17 @@ export const UiData =
     description: "MindRank (Hackathon Winning Project)",
     role: 'Contributor',
     technologies: "PHP, Google Platform, CSS, HTML, Bootsrap, JQuery",
-    prev: 'Mongo',
-    next: "Wordpress",
+    prev: 'Wordpress-Commerce',
+    next: "Wordpress-Design",
     cta_url:"https://xd.adobe.com/view/3f320ddf-4b92-40f4-8f67-f44b557909fb/"
   };
 
-export const WordpressData =
+export const WordpressDesignData =
   {
     title: "Wordpress",
-    description: "3 wordpress projects",
-    role: 'Contributor',
-    technologies: " Wordpress, HTML, CSS, PHP",
+    description: "Bikin Yoga, learn to control your money instead of your money controlling you.",
+    role: 'Wordpress Developer, UI Designer',
+    technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     design_tools: "Illustrator, Experience Design",
     prev: 'UI',
     next: "HTML",

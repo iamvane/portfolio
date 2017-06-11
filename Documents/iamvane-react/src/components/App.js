@@ -12,9 +12,9 @@ import CSS from './CSS';
 import Javascript from './Javascript';
 import Php from './Php';
 import ReactLink from './React';
-import Mongo from './Mongo';
+import WordpressCommerce from './WordpressCommerce';
 import Ui from './Ui';
-import Wordpress from './Wordpress';
+import WordpressDesign from './WordpressDesign';
 
 
 const App = () => (
@@ -28,9 +28,9 @@ const App = () => (
 			<Route path="/javascript" component={Javascript} />
 			<Route path="/php" component={Php} />
 			<Route path="/react" component={ReactLink} />
-			<Route path="/mongo" component={Mongo} />
+			<Route path="/wordpress-commerce" component={WordpressCommerce} />
 			<Route path="/ui" component={Ui} />
-			<Route path="/wordpress" component={Wordpress} />
+			<Route path="/wordpress-design" component={WordpressDesign} />
 		</div>
  	</BrowserRouter>
 );

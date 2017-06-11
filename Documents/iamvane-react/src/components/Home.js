@@ -63,9 +63,9 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/mongo">
+           <Link to="/wordpress-commerce">
             <div className="portfolio-link bg-green col-xs-6 col-md-3">
-              Mongo
+              Wordpress (E-commerce)
               <div className="portfolio-description">
                 <p>Create your first MongoDB <strong>collection</strong></p>
               </div>
@@ -81,9 +81,9 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/wordpress">
+          <Link to="/wordpress-design">
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3">
-              Wordpress
+              Wordpress (Web Design)
                <div className="portfolio-description">
                 <p><strong>A collection</strong> of recent Wordpress projects</p>
               </div>
