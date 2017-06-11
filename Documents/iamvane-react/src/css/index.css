@@ -393,6 +393,7 @@ form button{
   }
   .cta{
     margin: 90px 0px 55px 0px;
+    text-align:center;
   }
   .portfolio-link{
     font-weight: 100 !important;

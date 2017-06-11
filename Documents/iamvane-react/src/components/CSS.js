@@ -34,7 +34,7 @@ const CSS = (props) => {
 		   
 		    <div className="hover-me big-p text-center">
 		    	
-			    <p className="text-white bigger-p hide-mobile">2D Transition</p>
+			    <p className="text-white bigger-p">2D Transition</p>
 
 				<a href="" onClick={handleClick} className="shake-me">Shake Me Horiz</a>
 				<a href="" onClick={handleClick} className="shake-me-top">Shake Me Vert</a>

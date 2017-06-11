@@ -14,7 +14,7 @@ class Home extends Component {
           <div className="container">
           <h1>Vanessa Charles Thompson</h1>
           <p className="bigger-p">Full Stack [Javascript] Developer</p>
-          <p className="text-center bigger-p cta">Select skill to interact with project</p>
+          <p className="bigger-p cta">Select skill to interact with project</p>
         </div>
         <div className="portfolio text-white">
           
@@ -54,26 +54,8 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/react">
-            <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3">
-              React
-              <div className="portfolio-description">
-                <p><strong>Scoreboard App</strong> Keep track of your scores in any game</p>
-              </div>
-            </div>
-          </Link>
-
-           <Link to="/wordpress-commerce">
-            <div className="portfolio-link bg-green col-xs-6 col-md-3">
-              Wordpress (E-commerce)
-              <div className="portfolio-description">
-                <p>Create your first MongoDB <strong>collection</strong></p>
-              </div>
-            </div>
-          </Link>
-
           <Link to="/ui">
-            <div className="portfolio-link bg-grey col-xs-6 col-md-3">
+            <div className="portfolio-link bg-grey col-xs-6 col-md-3 col-md-push-6">
                 <p className="coral-text">UI</p>
               <div className="portfolio-description">
                 <p className="coral-text"><strong>MindRank</strong> a hackathon winning project.</p>
@@ -82,7 +64,7 @@ class Home extends Component {
           </Link>
 
           <Link to="/wordpress-design">
-            <div className="portfolio-link bg-salmon col-xs-6 col-md-3">
+            <div className="portfolio-link bg-salmon col-xs-6 col-md-3 col-md-push-6">
               Wordpress (Web Design)
                <div className="portfolio-description">
                 <p><strong>A collection</strong> of recent Wordpress projects</p>
@@ -90,6 +72,24 @@ class Home extends Component {
             </div>
           </Link>
 
+          <Link to="/react">
+            <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-6">
+              React
+              <div className="portfolio-description">
+                <p><strong>Scoreboard App</strong> Keep track of your scores in any game</p>
+              </div>
+            </div>
+          </Link>
+
+           <Link to="/wordpress-commerce">
+            <div className="portfolio-link bg-green col-xs-6 col-md-3 col-md-pull-6">
+              Wordpress (E-commerce)
+              <div className="portfolio-description">
+                <p>Create your first MongoDB <strong>collection</strong></p>
+              </div>
+            </div>
+          </Link>
+       
         </div>
         
       </div>
