@@ -30,7 +30,7 @@ const Javascript = () => {
         prevlink={JavascriptData.prev.toLowerCase()} 
         nextlink={JavascriptData.next.toLowerCase()} />
        
-      <div className="text-center bigger-p" id="time"></div><br/>
+      <div className="text-center bigger-p" id="time"></div>
        <div id="clock">
         <div className="num num1"><div>1</div></div>
         <div className="num num2"><div>2</div></div>

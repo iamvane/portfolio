@@ -34,7 +34,7 @@ const CSS = (props) => {
 		   
 		    <div className="hover-me big-p text-center">
 		    	
-			    <p className="text-white bigger-p">2D Transition</p>
+			    <p className="text-white bigger-p hide-mobile">2D Transition</p>
 
 				<a href="" onClick={handleClick} className="shake-me">Shake Me Horiz</a>
 				<a href="" onClick={handleClick} className="shake-me-top">Shake Me Vert</a>
@@ -45,7 +45,7 @@ const CSS = (props) => {
 				<a href="" onClick={handleClick} className="skew-me">Skew Me</a>
 				<a href="" onClick={handleClick} className="disappear-me">Disappear Me</a>
 
-				<p className="text-white bigger-p">Background Transition</p>
+				<p className="text-white bigger-p hide-mobile">Background Transition</p>
 
 				<a href="" onClick={handleClick} className="sweep-me-right">Sweep Me Right</a>
 				<a href="" onClick={handleClick} className="sweep-me-half">Sweep Me Half</a>

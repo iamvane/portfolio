@@ -1,6 +1,6 @@
 #clock{
-	width: 230px;
-	height: 230px;
+	width: 200px;
+	height: 200px;
 	background:#fff;
 	border:3px solid #FCE7BE;
 	border-radius:50%;
@@ -41,7 +41,7 @@
 	margin-left:-2px;
 }
 .num{
-	height:230px;
+	height:200px;
 	position: absolute;
 	left:calc(50% - 0.5em);
 }
@@ -146,4 +146,14 @@
 
 .num12 div{
 	transform: rotate(-360deg);
+}
+
+@media (min-width: 768px){
+	#clock{
+		width: 230px;
+		height: 230px;
+	}
+	.num{
+		height:230px;
+	}
 }

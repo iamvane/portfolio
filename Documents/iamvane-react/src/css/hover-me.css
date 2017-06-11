@@ -10,9 +10,10 @@
 }
 
 .hover-me p {
-    display: block;
+    display: none;
     clear: both;
 }
+
 
 /*Rotate*/
 .rotate-me{
@@ -232,13 +233,6 @@ a.shrink-me:hover {
     animation: background 5s infinite;
 }
 
-@media (min-width: 768px){
-  .hover-me a {
-      width: 23%;
-      padding: 10px;
-  }
-}
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes background {
     0%   {background: #8DD3F2;}
@@ -289,4 +283,14 @@ a.shrink-me:hover {
     -ms-transition: background .5s ease-in-out;
     -o-transition: background .5s ease-in-out;
     background: transparent;
+}
+
+@media (min-width: 768px){
+  .hover-me a {
+      width: 23%;
+      padding: 10px;
+  }
+  .hover-me p {
+    display: block;
+  }
 }
