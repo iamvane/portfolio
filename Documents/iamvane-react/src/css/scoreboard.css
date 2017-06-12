@@ -10,7 +10,7 @@
 }
 
 .scoreboard-header {
-  padding: 5px 10px;
+  padding: 0px 5px;
   text-align: center;
   align-items: center;
   background-color: #fff;
@@ -23,6 +23,7 @@
   flex-grow: 1;
   font-size: 1.2em;
   letter-spacing: 3px;
+  margin:5px;
 }
 
 .stats {
@@ -44,14 +45,13 @@
 }
 
 .stopwatch {
-  padding: 5px;
+  padding: 1px;
   background: #FFF7E6;
   border-radius: 0 15px 0 0;
 }
 
 .stopwatch-time {
   font-family: monospace;
-  font-size: 2em;
 }
 
 .stopwatch button {
@@ -217,6 +217,7 @@
     text-transform:uppercase;
   }
   .scoreboard-header {
+    padding: 5px 10px;
     display: flex;
   }
   .scoreboard-header h1 {
@@ -229,6 +230,9 @@
   .stopwatch button {
     margin: 8px 5px;
     padding: 7px 8px;
+  }
+  .stopwatch-time {
+    font-size: 2em;
   }
   .player {
     font-size: 1.2em;
