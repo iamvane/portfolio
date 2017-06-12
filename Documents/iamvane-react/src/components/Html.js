@@ -46,7 +46,9 @@ class Html extends Component {
           <br/>
           <br/>
           <div className="container-wide text-center">
-            Choose a color to color the below text <input id="color-me" type="color" onChange={this.colorMe}/>
+            <span className="hide-mobile">Choose a color to color the below text</span> 
+            <span className="hide-desktop">Type in a color to color the below text</span>
+           <input id="color-me" type="color" onChange={this.colorMe}/>
             <h1 className="color-me-heading">COLOR ME !</h1>
           </div>
           

@@ -22,7 +22,7 @@ class Home extends Component {
             <div className="portfolio-link bg-blue col-xs-6 col-md-3">
               HTML
               <div className="portfolio-description">
-                <p><strong>Test</strong> your HTML in 5 questions</p>
+                <p><strong>Color Me</strong>, a lightweight HTML feature</p>
               </div>
             </div>
           </Link>
@@ -31,7 +31,7 @@ class Home extends Component {
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3">
               CSS
                 <div className="portfolio-description">
-                  <p><strong>HoverMe</strong> a selection of CSS3 powered hover effects</p>
+                  <p><strong>HoverMe</strong>, a selection of CSS3 powered hover effects</p>
                 </div>
             </div>
           </Link>
@@ -49,7 +49,7 @@ class Home extends Component {
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-3">
               JavaScript
                 <div className="portfolio-description">
-                    <p><strong>HoursJs</strong> Analog clock; Use as a timer, calendar, business hours</p>
+                    <p><strong>AnalogJs</strong>, a simple analog clock plugin in Javascript</p>
                 </div>
             </div>
           </Link>
@@ -58,7 +58,7 @@ class Home extends Component {
             <div className="portfolio-link bg-grey col-xs-6 col-md-3 col-md-push-6">
                 <p className="coral-text">UI</p>
               <div className="portfolio-description">
-                <p className="coral-text"><strong>MindRank</strong> a hackathon winning project.</p>
+                <p className="coral-text"><strong>MindRank</strong> a hackathon winning project</p>
               </div>
             </div>
           </Link>
@@ -67,7 +67,7 @@ class Home extends Component {
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3 col-md-push-6">
               Wordpress (Web Design)
                <div className="portfolio-description">
-                <p><strong>A collection</strong> of recent Wordpress projects</p>
+                <p><strong>Bikin Yoga</strong>, different yoga, afrocuban yoga</p>
               </div>
             </div>
           </Link>
@@ -76,7 +76,7 @@ class Home extends Component {
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-6">
               React
               <div className="portfolio-description">
-                <p><strong>Scoreboard App</strong> Keep track of your scores in any game</p>
+                <p><strong>Scoreboard App</strong>, keep track of your scores in any game</p>
               </div>
             </div>
           </Link>
@@ -85,7 +85,7 @@ class Home extends Component {
             <div className="portfolio-link bg-green col-xs-6 col-md-3 col-md-pull-6">
               Wordpress (E-commerce)
               <div className="portfolio-description">
-                <p>Create your first MongoDB <strong>collection</strong></p>
+                <p><strong>Less Money Stress</strong>, a Wordpress E-commerce & Blog site</p>
               </div>
             </div>
           </Link>

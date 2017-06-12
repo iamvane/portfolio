@@ -282,6 +282,10 @@ form button{
   transform: scale(1.05);
 }
 
+.hide-mobile {
+    display: none;
+}
+
 /*Side Navigation*/
 
 /*#mySidenav{
@@ -459,6 +463,12 @@ form button{
     display:none;
   }
   .top-navigation{
+    display:block;
+  }
+  .hide-desktop{
+    display:none;
+  }
+  .hide-mobile{
     display:block;
   }
 }

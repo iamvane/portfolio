@@ -45,7 +45,7 @@ export const JavascriptData =
 export const ReactData =
     {
       title: "React",
-      description: "Add new players and keep track of the palyers score with the React Scoreboard App",
+      description: "Scoreboard App",
       role: 'Creator',
       technologies: "React, NodeJS, Webpack, Babel, CSS, HTML",
       prev: 'Php',
@@ -56,7 +56,7 @@ export const ReactData =
 export const WordpressCommerceData =
   {
     title: "Wordpress E-commerce",
-    description: "Less Money Stress, learn to control your money instead of your money controlling you.",
+    description: "Less Money Stress",
     role: 'Wordpress Developer, UI Designer',
     technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     prev: 'React',
@@ -78,7 +78,7 @@ export const UiData =
 export const WordpressDesignData =
   {
     title: "Wordpress Design",
-    description: "Bikin Yoga, learn to control your money instead of your money controlling you.",
+    description: "Bikin Yoga",
     role: 'Wordpress Developer, UI Designer',
     technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     design_tools: "Illustrator, Experience Design",
