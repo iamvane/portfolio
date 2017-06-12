@@ -5,7 +5,8 @@ export const HtmlData =
     technologies: "HTML, CSS, Javascript",
     design_tools: "Illustrator, Experience Design",
     prev: 'Wordpress-Design',
-    next: "CSS"
+    next: "CSS",
+    cta_url:"https://codepen.io/iamvane/pen/yXOWYL"
   };
 
 export const CssData =
@@ -54,12 +55,13 @@ export const ReactData =
 
 export const WordpressCommerceData =
   {
-    title: "Wordpress",
+    title: "Wordpress E-commerce",
     description: "Less Money Stress, learn to control your money instead of your money controlling you.",
     role: 'Wordpress Developer, UI Designer',
     technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     prev: 'React',
     next: "UI",
+    cta_url:"http://www.lessmoneystress.net/"
   };
 
 export const UiData =
@@ -75,11 +77,12 @@ export const UiData =
 
 export const WordpressDesignData =
   {
-    title: "Wordpress",
+    title: "Wordpress Design",
     description: "Bikin Yoga, learn to control your money instead of your money controlling you.",
     role: 'Wordpress Developer, UI Designer',
     technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
     design_tools: "Illustrator, Experience Design",
     prev: 'UI',
     next: "HTML",
+    cta_url:"http://bikinyoga.com/"
   };

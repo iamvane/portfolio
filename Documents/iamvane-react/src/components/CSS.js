@@ -1,5 +1,6 @@
 import React from 'react';
 import { CssData } from './../data/skills';
+import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 import CTA from './CtaSection';
 import Header from './Header';
@@ -16,6 +17,17 @@ const CSS = (props) => {
 
     <div className={"page-wrapper " + (CssData.title === 'CSS' ? 'bg-salmon' : '')}>
 		
+		<div className="container-wide">
+          
+          <TopNavigation 
+          title={CssData.title}
+          prev={CssData.prev}
+            next={CssData.next}
+            prevlink={CssData.prev.toLowerCase()} 
+            nextlink={CssData.next.toLowerCase()} />
+
+        </div>
+
 		<div className="text-white">
   			
   			<Header title={CssData.title}
@@ -48,7 +60,7 @@ const CSS = (props) => {
 				<p className="text-white bigger-p hide-mobile">Background Transition</p>
 
 				<a href="" onClick={handleClick} className="sweep-me-right">Sweep Me Right</a>
-				<a href="" onClick={handleClick} className="sweep-me-half">Sweep Me Half</a>
+				<a href="" onClick={handleClick} className="sweep-me-half">Sweep Me Some</a>
 				<a href="" onClick={handleClick} className="sweep-me-top">Sweep Me Top</a>
 				<a href="" onClick={handleClick} className="sweep-me-radial">Sweep Radial</a>
 				<a href="" onClick={handleClick} className="fade-me">Fade Me</a>

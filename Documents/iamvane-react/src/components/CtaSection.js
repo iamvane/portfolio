@@ -62,7 +62,7 @@ const CTA = (props) => {
 		        			<p>View Prototype<br/> on Adobe XD</p>
 	       				</div>					
 	       				:
-	       				(props.title === 'Wordpress') ?
+	       				(props.title === 'Wordpress Design') ?
 	       				<div>
 		       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
 		        			<p>Click on project<br/> to launch site</p>
@@ -74,10 +74,10 @@ const CTA = (props) => {
 		        			<p>Github<br/> View source code</p>
 	       				</div>	
 	       				:
-	       				(props.title === 'Mongo') ?
+	       				(props.title === 'Wordpress E-commerce') ?
 	       				<div>
 		       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
-		        			<p>Hover to interact<br/> interact with effects</p>
+		        			<p>Click on project<br/> to launch site</p>
 	       				</div>	
 	       				:''
 		       			}		
@@ -86,9 +86,11 @@ const CTA = (props) => {
 		       		
 		       		{
 		       			(props.ctaUrl) ?
-		       				<span className={"line " + (props.title === 'PHP' ? 'bg-green' : 
+		       				<span className={"line " + (props.title === 'PHP' && 'Wordpress E-commerce'? 'bg-green' : 
 		       											props.title === 'React' && 'JavaScript'? 'bg-light-mustard' :
 		       											props.title === 'User Interface'? 'bg-grey' :
+		       											props.title === "HTML" ? 'bg-blue':
+		       											props.title === "Wordpress Design" ? 'bg-salmon':
 		       											''
 		       											)}></span>
 		       				: ''

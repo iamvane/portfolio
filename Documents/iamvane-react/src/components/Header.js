@@ -7,7 +7,7 @@ const Header = (props) => (
   <header>
 
   	<div className="container">
-		    
+
 		    <ul className="main-nav nav navbar-nav navbar-right navigation bigger-p">
 		      <li><NavLink exact to="/">Home</NavLink></li>
 		      <li><NavLink to="/About">About</NavLink></li>

@@ -2,6 +2,7 @@ import React from 'react';
 import CTA from './CtaSection';
 import { WordpressCommerceData } from './../data/skills';
 import Header from './Header';
+import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 
 //App Components
@@ -11,7 +12,17 @@ const WordpressCommerce = (props) => {
   return(
 
     <div className="page-wrapper bg-green text-white">
-     
+      <div className="container-wide">
+          
+          <TopNavigation 
+          title={WordpressCommerceData.title}
+          prev={WordpressCommerceData.prev}
+            next={WordpressCommerceData.next}
+            prevlink={WordpressCommerceData.prev.toLowerCase()} 
+            nextlink={WordpressCommerceData.next.toLowerCase()} />
+
+        </div>
+
       <Header title={WordpressCommerceData.title}
         description={WordpressCommerceData.description}
       />

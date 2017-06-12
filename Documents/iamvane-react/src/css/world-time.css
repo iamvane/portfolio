@@ -150,10 +150,10 @@
 
 @media (min-width: 768px){
 	#clock{
-		width: 230px;
-		height: 230px;
+		width: 250px;
+		height: 250px;
 	}
 	.num{
-		height:230px;
+		height:250px;
 	}
 }

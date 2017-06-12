@@ -2,12 +2,23 @@ import React from 'react';
 import { WordpressDesignData } from './../data/skills';
 import CTA from './CtaSection';
 import Header from './Header';
+import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 
 //App Components
 
 const WordpressDesign = () => (
   <div className="page-wrapper bg-salmon text-white">
+  		<div className="container-wide">
+          
+          <TopNavigation 
+          title={WordpressDesignData.title}
+          prev={WordpressDesignData.prev}
+            next={WordpressDesignData.next}
+            prevlink={WordpressDesignData.prev.toLowerCase()} 
+            nextlink={WordpressDesignData.next.toLowerCase()} />
+
+        </div>
 
      <Header title={WordpressDesignData.title}
         description={WordpressDesignData.description}

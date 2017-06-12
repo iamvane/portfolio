@@ -208,6 +208,7 @@ a.single-cta.no-effect:hover{
   width:30px;
   height:30px;
   margin-right:8px;
+  margin-left:8px;
   float:left;
 
 }
@@ -328,6 +329,37 @@ form button{
     background-color: #555
 }
 */
+.top-navigation{
+  width:50%;
+  opacity:0.6;
+  transition: .3s;
+  display:none;
+}
+
+.top-navigation .icon,
+.bottom-navigation .icon{
+  width:20px;
+  height:20px;
+}
+
+.top-navigation div {
+  width:auto;
+}
+.top-navigation:hover{
+  opacity: 1;
+}
+
+.top-navigation-item{
+  transition:.3s;
+}
+.top-navigation-item:hover span{
+  background: rgba(255,255,255, 0.4);
+}
+
+.top-navigation span{
+  display: block;
+  clear: both;
+}
 
 .bottom-nav{
   clear:both;
@@ -422,6 +454,12 @@ form button{
   }
   .cta-content{
     padding:10px 10px 3px 18px;
+  }
+  .bottom-nav{
+    display:none;
+  }
+  .top-navigation{
+    display:block;
   }
 }
 

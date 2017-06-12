@@ -2,12 +2,24 @@ import React from 'react';
 import { UiData } from './../data/skills';
 import CTA from './CtaSection';
 import Header from './Header';
+import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 
 //App Components
 
 const Ui = () => (
   <div className="page-wrapper bg-grey">
+    
+    <div className="container-wide">
+          
+          <TopNavigation 
+          title={UiData.title}
+          prev={UiData.prev}
+            next={UiData.next}
+            prevlink={UiData.prev.toLowerCase()} 
+            nextlink={UiData.next.toLowerCase()} />
+
+        </div>
     
     <Header title={UiData.title}
         description={UiData.description}

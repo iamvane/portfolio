@@ -2,6 +2,7 @@ import React from 'react';
 import { JavascriptData } from './../data/skills';
 import CTA from './CtaSection';
 import Header from './Header';
+import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 import './../css/world-time.css';
 
@@ -13,6 +14,17 @@ const Javascript = () => {
   
     <div className="page-wrapper bg-light-mustard text-white">
       
+      <div className="container-wide">
+          
+          <TopNavigation 
+          title={JavascriptData.title}
+          prev={JavascriptData.prev}
+            next={JavascriptData.next}
+            prevlink={JavascriptData.prev.toLowerCase()} 
+            nextlink={JavascriptData.next.toLowerCase()} />
+
+        </div>
+
       <Header title={JavascriptData.title}
           description={JavascriptData.description}
         />
