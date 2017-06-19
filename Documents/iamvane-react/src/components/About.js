@@ -55,7 +55,7 @@ class About extends Component {
 				      <p><span className="bigger-p bg-salmon"></span>Vanessa is a web developer and designer based in Boston. She started coding 3 years ago when building a web application for her startup. Her favorite programming language is JavaScript and she has a strong background in UX design and marketing. Vanessa is a former classical piano instructor and sound designer.
 					      </p>
 				  </div>
-			      <div className="col-xs-6">
+			      <div className="col-xs-12 col-md-6">
 				      
 				      <p><span className="bg-green">Web Skills</span> JavaScript, jQuery, CSS, SASS PHP, HTML, XML, JSON, NodeJS, Bootstrap, Apache, ReactJS, AWS, Google Analytics, Google App Engine, Git, Redux, Flux, Wordpress, ExpressJS, MongoDB, MySQL, REST APIs, ES6, Babel, Webpack.
 				      </p>
@@ -66,7 +66,7 @@ class About extends Component {
 				      <a className="icon-link" href="https://www.linkedin.com/in/vanessacharlesnabi/" target="_blank"><img className="icon" alt="linkedin-profile" src={require('./../img/linkedin-logo.png')}/></a>
 				      <br/>
 			      </div>
-			      <div className="col-xs-6">
+			      <div className="col-xs-12 col-md-6">
 			      	<p><span className="bg-grey">Reviews/Testimonials</span> View what clients have to say about Vanessa
 				      </p>
 			      		
