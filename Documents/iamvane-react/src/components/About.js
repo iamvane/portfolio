@@ -81,6 +81,7 @@ class About extends Component {
 				      	<div className="treehouse">
 					      	<p><span className="bg-salmon">Coursework</span> Vanessa has passed <strong>{this.state.courses}</strong> lessons and scored <strong>{this.state.points}</strong> points at Treehouse! Check out her last passed course content at the badges below:</p>
 					      	<ul className="badges">{badgest}</ul>
+					      	<a href="https://teamtreehouse.com/vanecharles" target="_blank">View all Badges & Full Treehouse Profile</a>
 					    </div>
 			      </div>
 			    </div> 

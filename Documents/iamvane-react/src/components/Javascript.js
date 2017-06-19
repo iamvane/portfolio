@@ -63,10 +63,7 @@ const Javascript = () => {
 
     {/* Write routes here... */}
   </div>
- 
-
     
-
   );
 }
 

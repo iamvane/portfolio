@@ -17,7 +17,6 @@ a:hover,
 a:visited,
 a:active{
   text-decoration:none;
-  color:#333;
 }
 .container-wide{
     padding-right: 15px;
@@ -219,29 +218,6 @@ a.single-cta.no-effect:hover{
 }
 
 
-/*form{
-  padding:30px 60px;
-  height:280px;
-}
-
-form h4 {
-    margin-bottom: 20px;
-}
-
-input[type="radio"] {
-    margin-right: 10px;
-}
-
-form button{
-  padding: 10px 40px;
-    background: #8dd3f2;
-    border: 1px solid #222;
-    color: #fff;
-    float: right;
-    margin-top: 40px;
-}*/
-
-
 .eco-cannabis-wrap {
   position: relative;
   margin: 0 auto;
@@ -286,53 +262,6 @@ form button{
     display: none;
 }
 
-/*Side Navigation*/
-
-/*#mySidenav{
-  opacity:0;
-}
-
-#mySidenav:hover{
-  opacity:1;
-}
-
-#mySidenav div {
-    top: 260px;
-    position: absolute;
-    left: -40px;
-    transition: 0.3s;
-    padding: 100px 100px 100% 20px;
-    width: 230px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #333;
-    border-radius: 0 5px 5px 0;
-}
-
-#mySidenav div:hover {
-    left: 0;
-}
-
-.html-link a{
-    top: 600px;
-    background-color: #fff;
-}
-
-#blog {
-    top: 320px;
-    background-color: #2196F3;
-}
-
-#projects {
-    top: 380px;
-    background-color: #f44336;
-}
-
-#contact {
-    top: 440px;
-    background-color: #555
-}
-*/
 .top-navigation{
   width:50%;
   opacity:0.6;
