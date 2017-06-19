@@ -445,8 +445,9 @@ form button{
   display:block;
   clear:both;
 }
+
 .icon-big{
-  width:60px;
+  width:40px;
 }
 
 .icon-link img{
@@ -512,6 +513,9 @@ form button{
   .bio{
     width:45%;
     margin-bottom:30px;
+  }
+  .icon-big{
+    width:60px;
   }
 }
 

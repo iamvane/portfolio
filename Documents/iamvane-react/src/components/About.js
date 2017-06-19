@@ -40,7 +40,7 @@ class About extends Component {
 
 		const badgest = badgesShort.map((badge) => 
 			<li key={badge.id}>
-			<a className="icon-link" href={badge.url}><img alt={badge.name}className="icon-big" src={badge.icon_url}/></a>
+			<a className="icon-link" href={badge.url} target="_blank"><img alt={badge.name}className="icon-big" src={badge.icon_url}/></a>
 			</li>
 		);
 
