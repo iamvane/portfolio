@@ -210,8 +210,8 @@ a.single-cta.no-effect:hover{
   margin-right:8px;
   margin-left:8px;
   float:left;
-
 }
+
 .line {
     height: 3px;
     width: 100%;
@@ -419,6 +419,44 @@ form button{
   font-size:3em;
 }
 
+.badges {
+  padding:0px;
+}
+.badges li{
+  list-style: none;
+  float:left;
+  margin:1px;
+}
+
+.reviews-wrap{
+  margin:0 auto;
+  text-align: center;
+  width:80%;
+  float:left;
+  clear:both;
+  display:block;
+}
+
+.reviews {
+    margin: 0px 5% 10px 5%;
+    width: 30%;
+}
+.treehouse{
+  display:block;
+  clear:both;
+}
+.icon-big{
+  width:60px;
+}
+
+.icon-link img{
+  transition: transform .1s;
+}
+
+.icon-link:hover img{
+  transform: scale(1.15);
+}
+
 /*media queries*/
 @media (min-width: 768px){
   .page-wrapper{
@@ -470,6 +508,10 @@ form button{
   }
   .hide-mobile{
     display:block;
+  }
+  .bio{
+    width:45%;
+    margin-bottom:30px;
   }
 }
 

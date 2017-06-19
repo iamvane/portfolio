@@ -10,7 +10,6 @@ import BottomNavigation from './BottomNavigation';
 class Html extends Component {  
   constructor(props) {
     super(props);
-    this.state = {roleText: '', link:'', error:''};
     // This line is important!
     this.colorMe = this.colorMe.bind(this);
   }
