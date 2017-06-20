@@ -375,6 +375,11 @@ a.single-cta.no-effect:hover{
   clear:both;
 }
 
+.treehouse .all-badges{
+    margin-bottom: 50px;
+    display: block;
+}
+
 .icon-big{
   width:40px;
 }
