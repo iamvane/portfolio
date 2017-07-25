@@ -38,7 +38,7 @@ const CTA = (props) => {
 		       			(props.title === 'CSS') ?
 		       				<div>
 			       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
-			       				<p>Hover to interact<br/> interact with effects</p>
+			       				<p>Hover to interact<br/> with effects</p>
 			       			</div>
 		       			:
 

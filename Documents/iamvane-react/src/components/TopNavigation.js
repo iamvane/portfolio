@@ -8,7 +8,7 @@ const TopNavigation = (props) => (
 		<div className="col-md-6 text-right top-navigation-item">
 			<Link to={props.prevlink}>
 				<img className="icon float-right" alt="arrow-left" src={require('./../img/left-arrow.png')}/>
-				Previous project
+				Previous Project
 				<br/>
 				<span className="bigger-p">{props.prev}</span>
 			</Link>
