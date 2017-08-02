@@ -63,7 +63,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/wordpress-design">
+          <Link to="/redux-react">
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3 col-md-push-6">
               Redux + React
                <div className="portfolio-description">
@@ -72,7 +72,7 @@ class Home extends Component {
             </div>
           </Link>
 
-          <Link to="/react">
+          <Link to="/react-redux">
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-6">
               React + Redux
               <div className="portfolio-description">
