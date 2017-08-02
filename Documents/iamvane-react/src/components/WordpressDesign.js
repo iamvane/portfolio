@@ -1,5 +1,5 @@
 import React from 'react';
-import { WordpressDesignData } from './../data/skills';
+import { ReduxgramData } from './../data/skills';
 import CTA from './CtaSection';
 import Header from './Header';
 import TopNavigation from './TopNavigation';
@@ -12,34 +12,34 @@ const WordpressDesign = () => (
   		<div className="container-wide">
           
           <TopNavigation 
-          title={WordpressDesignData.title}
-          prev={WordpressDesignData.prev}
-            next={WordpressDesignData.next}
-            prevlink={WordpressDesignData.prev.toLowerCase()} 
-            nextlink={WordpressDesignData.next.toLowerCase()} />
+          title={ReduxgramData.title}
+          prev={ReduxgramData.prev}
+            next={ReduxgramData.next}
+            prevlink={ReduxgramData.prev.toLowerCase()} 
+            nextlink={ReduxgramData.next.toLowerCase()} />
 
         </div>
 
-     <Header title={WordpressDesignData.title}
-        description={WordpressDesignData.description}
+     <Header title={ReduxgramData.title}
+        description={ReduxgramData.description}
       />
        
-      <CTA title={WordpressDesignData.title}
-          role={WordpressDesignData.role}
-          technologies={WordpressDesignData.technologies}
-          ctaUrl = {WordpressDesignData.cta_url}
+      <CTA title={ReduxgramData.title}
+          role={ReduxgramData.role}
+          technologies={ReduxgramData.technologies}
+          ctaUrl = {ReduxgramData.cta_url}
         />
 
       <div className="eco-cannabis-wrap text-center">
-        <a href="http://bikinyoga.com/" rel="noopener noreferrer" target="_blank">
-        <img src={require('./../img/bikin-yoga.png')} alt="bikin-yoga" className="eco-cannabis-img"/>
+        <a href="https://github.com/iamvane/ReduxGram" rel="noopener noreferrer" target="_blank">
+        <img src={require('./../img/Reduxgram.png')} alt="Reduxgram" className="eco-cannabis-img"/>
         </a>  
       </div>
     
-      <BottomNavigation prev={WordpressDesignData.prev}
-          next={WordpressDesignData.next}
-          prevlink={WordpressDesignData.prev.toLowerCase()} 
-          nextlink={WordpressDesignData.next.toLowerCase()} />
+      <BottomNavigation prev={ReduxgramData.prev}
+          next={ReduxgramData.next}
+          prevlink={ReduxgramData.prev.toLowerCase()} 
+          nextlink={ReduxgramData.next.toLowerCase()} />
   	</div>
 );
 

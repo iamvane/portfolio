@@ -65,16 +65,16 @@ class Home extends Component {
 
           <Link to="/wordpress-design">
             <div className="portfolio-link bg-salmon col-xs-6 col-md-3 col-md-push-6">
-              Wordpress (Web Design)
+              Redux + React
                <div className="portfolio-description">
-                <p><strong>Bikin Yoga</strong>, different yoga, afrocuban yoga</p>
+                <p><strong>ReduxGram</strong>, an Instragram-like application built using Redux + React</p>
               </div>
             </div>
           </Link>
 
           <Link to="/react">
             <div className="portfolio-link bg-light-mustard col-xs-6 col-md-3 col-md-pull-6">
-              React
+              React + Redux
               <div className="portfolio-description">
                 <p><strong>Scoreboard App</strong>, keep track of your scores in any game</p>
               </div>

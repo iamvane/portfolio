@@ -49,7 +49,7 @@ const CTA = (props) => {
 		       				</div>
 		       			:
 
-		       			(props.title === 'React') ?
+		       			(props.title === 'React + Redux') ?
 		       				<div>
 			       				<img className="icon" alt="visit-project" src={require('./../img/github-logo.png')}/>
 		        				<p>Github<br/> View source code</p>
@@ -62,10 +62,10 @@ const CTA = (props) => {
 		        			<p>View Prototype<br/> on Adobe XD</p>
 	       				</div>					
 	       				:
-	       				(props.title === 'Wordpress Design') ?
+	       				(props.title === 'Redux + React') ?
 	       				<div>
-		       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
-		        			<p>Click on project<br/> to launch site</p>
+		       				<img className="icon" alt="visit-project" src={require('./../img/github-logo.png')}/>
+		        			<p>Github<br/> View source code</p>
 	       				</div>					
 	       				:
 	       				(props.title === 'JavaScript') ?
@@ -87,10 +87,10 @@ const CTA = (props) => {
 		       		{
 		       			(props.ctaUrl) ?
 		       				<span className={"line " + (props.title === 'PHP' && 'Wordpress E-commerce'? 'bg-green' : 
-		       											props.title === 'React' && 'JavaScript'? 'bg-light-mustard' :
+		       											props.title === 'React + Redux' && 'JavaScript'? 'bg-light-mustard' :
 		       											props.title === 'User Interface'? 'bg-grey' :
 		       											props.title === "HTML" ? 'bg-blue':
-		       											props.title === "Wordpress Design" ? 'bg-salmon':
+		       											props.title === "Redux + React" ? 'bg-salmon':
 		       											''
 		       											)}></span>
 		       				: ''

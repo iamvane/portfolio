@@ -27,10 +27,10 @@ const App = () => (
 			<Route path="/about" component={About} />
 			<Route path="/javascript" component={Javascript} />
 			<Route path="/php" component={Php} />
-			<Route path="/react" component={ReactLink} />
+			<Route path="/react-redux" component={ReactLink} />
 			<Route path="/wordpress-commerce" component={WordpressCommerce} />
 			<Route path="/ui" component={Ui} />
-			<Route path="/wordpress-design" component={WordpressDesign} />
+			<Route path="/redux-react" component={WordpressDesign} />
 		</div>
  	</BrowserRouter>
 );

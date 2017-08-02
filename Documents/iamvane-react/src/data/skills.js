@@ -4,7 +4,7 @@ export const HtmlData =
     description: "Color Me",
     technologies: "HTML, CSS, Javascript",
     design_tools: "Illustrator, Experience Design",
-    prev: 'Wordpress-Design',
+    prev: 'Redux-React',
     next: "CSS",
     cta_url:"https://codepen.io/iamvane/pen/yXOWYL"
   };
@@ -38,16 +38,16 @@ export const JavascriptData =
     role: 'Contributor',
     technologies: "PHP, Google Platform, CSS, HTML, Bootsrap, JQuery",
     prev: 'Javascript',
-    next: "React",
+    next: "React-Redux",
     cta_url:"https://vanegeek@bitbucket.org/stevemanuel/eps-marketing.git"
   };
   
 export const ReactData =
     {
-      title: "React",
+      title: "React + Redux",
       description: "Scoreboard App",
       role: 'Creator',
-      technologies: "React, NodeJS, Webpack, Babel, CSS, HTML",
+      technologies: "React, Redux, NodeJS, Webpack, Babel, CSS, HTML",
       prev: 'Php',
       next: "Wordpress-Commerce",
       cta_url:"https://github.com/iamvane/scoreboard-react-app"
@@ -59,7 +59,7 @@ export const WordpressCommerceData =
     description: "Less Money Stress",
     role: 'Wordpress Developer, UI Designer',
     technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
-    prev: 'React',
+    prev: 'React-Redux',
     next: "UI",
     cta_url:"http://www.lessmoneystress.net/"
   };
@@ -71,18 +71,17 @@ export const UiData =
     role: 'Contributor',
     technologies: "PHP, Google Platform, CSS, HTML, Bootsrap, JQuery",
     prev: 'Wordpress-Commerce',
-    next: "Wordpress-Design",
+    next: "Redux-React",
     cta_url:"https://xd.adobe.com/view/3f320ddf-4b92-40f4-8f67-f44b557909fb/"
   };
 
-export const WordpressDesignData =
+export const ReduxgramData =
   {
-    title: "Wordpress Design",
-    description: "Bikin Yoga",
-    role: 'Wordpress Developer, UI Designer',
-    technologies: "Wordpress, HTML, CSS, PHP, Adobe Experience Design, Paypal",
-    design_tools: "Illustrator, Experience Design",
+    title: "Redux + React",
+    description: "ReduxGram",
+    role: 'Creator',
+    technologies: "React, Redux, NodeJS, Webpack, Babel, CSS, HTML",
     prev: 'UI',
     next: "HTML",
-    cta_url:"http://bikinyoga.com/"
+    cta_url:"https://github.com/iamvane/ReduxGram"
   };

@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './Header';
 import CTA from './CtaSection';
 import { ReactData } from './../data/skills';
-import Scoreboard from './Scoreboard';
+import Scoreboard from './ScoreboardApp/containers/Scoreboard';
 import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
-import './../css/scoreboard.css';
+import './ScoreboardApp/scoreboard.css';
 
 //App Components
 
