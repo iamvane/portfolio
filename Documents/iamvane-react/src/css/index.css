@@ -255,12 +255,13 @@ a.single-cta.no-effect:hover{
 }
 
 .wordpress-wrap p{
-  margin-top:20px;
+  display:none;
 }
 
 .wordpress-img{
   height:30px;
   transition: height .4s;
+  margin-bottom:20px;
 }
 
 .categories{
@@ -466,6 +467,9 @@ a.single-cta.no-effect:hover{
   }
   .wordpress-img{
     height:80px;
+  }
+  .wordpress-wrap p{
+    display:block;
   }
 }
 
