@@ -266,6 +266,7 @@ a.single-cta.no-effect:hover{
 
 .categories{
   font-weight: bold;
+  display:block;
 }
 
 .project-wrapper:hover img{
