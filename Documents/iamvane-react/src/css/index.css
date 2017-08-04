@@ -15,7 +15,8 @@ body{
 
 a:hover,
 a:visited,
-a:active{
+a:active,
+a:link{
   text-decoration:none;
 }
 .container-wide{
@@ -249,13 +250,25 @@ a.single-cta.no-effect:hover{
   width:100%;
 }
 
-.wordpress-wrap img{
-  width:100%;
-  transition: transform .1s;
+.wordpress-wrap {
+  margin-top:20px;
 }
 
-.wordpress-anchor:hover img{
-  transform: scale(1.05);
+.wordpress-wrap p{
+  margin-top:20px;
+}
+
+.wordpress-img{
+  height:30px;
+  transition: height .4s;
+}
+
+.categories{
+  font-weight: bold;
+}
+
+.project-wrapper:hover img{
+  height:85px;
 }
 
 .hide-mobile {
@@ -450,6 +463,9 @@ a.single-cta.no-effect:hover{
   }
   .icon-big{
     width:60px;
+  }
+  .wordpress-img{
+    height:80px;
   }
 }
 

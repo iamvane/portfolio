@@ -49,7 +49,7 @@ const CTA = (props) => {
 		       				</div>
 		       			:
 
-		       			(props.title === 'React + Redux') ?
+		       			(props.title === 'React') ?
 		       				<div>
 			       				<img className="icon" alt="visit-project" src={require('./../img/github-logo.png')}/>
 		        				<p>Github<br/> View source code</p>
@@ -62,7 +62,7 @@ const CTA = (props) => {
 		        			<p>View Prototype<br/> on Adobe XD</p>
 	       				</div>					
 	       				:
-	       				(props.title === 'Redux + React') ?
+	       				(props.title === 'Redux') ?
 	       				<div>
 		       				<img className="icon" alt="visit-project" src={require('./../img/github-logo.png')}/>
 		        			<p>Github<br/> View source code</p>
@@ -74,7 +74,7 @@ const CTA = (props) => {
 		        			<p>Github<br/> View source code</p>
 	       				</div>	
 	       				:
-	       				(props.title === 'Wordpress E-commerce') ?
+	       				(props.title === 'Wordpress') ?
 	       				<div>
 		       				<img className="icon" alt="visit-project" src={require('./../img/arrow.png')}/>
 		        			<p>Click on project<br/> to launch site</p>
