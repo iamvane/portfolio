@@ -11,7 +11,7 @@ const Home =()=> (
 
       <div className="container">
       <h1>Vanessa Charles Thompson</h1>
-      <p className="bigger-p">Full Stack [JavaScript] Developer</p>
+      <p className="bigger-p">[Javascript] Software Engineer</p>
       <p className="bigger-p cta">Select skill to interact with project</p>
     </div>
     <div className="portfolio text-white">

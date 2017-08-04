@@ -52,7 +52,7 @@ class About extends Component {
 			      
 			      <h1>Vanessa Charles Thompson</h1>
 			      <div className="bio">
-				      <p><span className="bigger-p bg-salmon"></span>Vanessa is a web developer and designer based in Boston. She started coding 3 years ago when building a web application for her startup. Her favorite programming language is JavaScript and she has a strong background in UX design and marketing. Vanessa is a former classical piano instructor and sound designer.
+				      <p><span className="bigger-p bg-salmon"></span>Vanessa is a software engineer based in Boston. She started coding 3 years ago when building a web application for her startup. Her favorite programming language is JavaScript and she has a strong background in UX/UI design and marketing. Vanessa is a former classical piano instructor and sound designer.
 					      </p>
 				  </div>
 			      <div className="col-xs-12 col-md-6">
