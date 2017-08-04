@@ -19,6 +19,11 @@ a:active,
 a:link{
   text-decoration:none;
 }
+
+input[type="color"]{
+  color:black;
+}
+
 .container-wide{
     padding-right: 15px;
     padding-left: 15px;
