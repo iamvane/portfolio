@@ -53,7 +53,7 @@ export const ReactData =
       cta_url:"https://github.com/iamvane/scoreboard-react-app"
     };
 
-export const WordpressCommerceData =
+export const WordpressData =
   {
     title: "Wordpress",
     description: "A selection of previous Wordpress projects",

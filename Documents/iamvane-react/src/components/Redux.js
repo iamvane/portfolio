@@ -7,7 +7,7 @@ import BottomNavigation from './BottomNavigation';
 
 //App Components
 
-const WordpressDesign = () => (
+const Redux = () => (
   <div className="page-wrapper bg-salmon text-white">
   		<div className="container-wide">
           
@@ -43,4 +43,4 @@ const WordpressDesign = () => (
   	</div>
 );
 
-export default WordpressDesign;
+export default Redux;

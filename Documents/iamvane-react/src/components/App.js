@@ -12,9 +12,9 @@ import CSS from './CSS';
 import Javascript from './Javascript';
 import Php from './Php';
 import ReactLink from './React';
-import WordpressCommerce from './WordpressCommerce';
+import Wordpress from './Wordpress';
 import Ui from './Ui';
-import WordpressDesign from './WordpressDesign';
+import Redux from './Redux';
 
 
 const App = () => (
@@ -28,9 +28,9 @@ const App = () => (
 			<Route path="/javascript" component={Javascript} />
 			<Route path="/php" component={Php} />
 			<Route path="/react" component={ReactLink} />
-			<Route path="/wordpress" component={WordpressCommerce} />
+			<Route path="/wordpress" component={Wordpress} />
 			<Route path="/ui" component={Ui} />
-			<Route path="/redux" component={WordpressDesign} />
+			<Route path="/redux" component={Redux} />
 		</div>
  	</BrowserRouter>
 );

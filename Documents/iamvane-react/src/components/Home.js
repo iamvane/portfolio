@@ -65,7 +65,7 @@ const Home =()=> (
         <div className="portfolio-link bg-salmon col-xs-6 col-md-3 col-md-push-6">
           Redux
            <div className="portfolio-description">
-            <p><strong>ReduxGram</strong>, an Instragram-like application built using Redux + React</p>
+            <p><strong>ReduxGram</strong>, an Instragram-like application built with Redux</p>
           </div>
         </div>
       </Link>

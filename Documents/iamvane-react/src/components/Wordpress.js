@@ -1,13 +1,13 @@
 import React from 'react';
 import CTA from './CtaSection';
-import { WordpressCommerceData } from './../data/skills';
+import { WordpressData } from './../data/skills';
 import Header from './Header';
 import TopNavigation from './TopNavigation';
 import BottomNavigation from './BottomNavigation';
 
 //App Components
 
-const WordpressCommerce = (props) => {
+const Wordpress = (props) => {
 
   return(
 
@@ -15,22 +15,22 @@ const WordpressCommerce = (props) => {
       <div className="container-wide">
           
           <TopNavigation 
-          title={WordpressCommerceData.title}
-          prev={WordpressCommerceData.prev}
-            next={WordpressCommerceData.next}
-            prevlink={WordpressCommerceData.prev.toLowerCase()} 
-            nextlink={WordpressCommerceData.next.toLowerCase()} />
+          title={WordpressData.title}
+          prev={WordpressData.prev}
+            next={WordpressData.next}
+            prevlink={WordpressData.prev.toLowerCase()} 
+            nextlink={WordpressData.next.toLowerCase()} />
 
         </div>
 
-      <Header title={WordpressCommerceData.title}
-        description={WordpressCommerceData.description}
+      <Header title={WordpressData.title}
+        description={WordpressData.description}
       />
        
-      <CTA title={WordpressCommerceData.title}
-          role={WordpressCommerceData.role}
-          technologies={WordpressCommerceData.technologies}
-          ctaUrl = {WordpressCommerceData.cta_url}
+      <CTA title={WordpressData.title}
+          role={WordpressData.role}
+          technologies={WordpressData.technologies}
+          ctaUrl = {WordpressData.cta_url}
         />
 
       <div className="text-center wordpress-wrap">
@@ -63,14 +63,14 @@ const WordpressCommerce = (props) => {
       </div>
        
     
-      <BottomNavigation prev={WordpressCommerceData.prev}
-          next={WordpressCommerceData.next}
-          prevlink={WordpressCommerceData.prev.toLowerCase()} 
-          nextlink={WordpressCommerceData.next.toLowerCase()} />
+      <BottomNavigation prev={WordpressData.prev}
+          next={WordpressData.next}
+          prevlink={WordpressData.prev.toLowerCase()} 
+          nextlink={WordpressData.next.toLowerCase()} />
 
       {/* Write routes here... */}
     </div>
   );
 }
 
-export default WordpressCommerce;
+export default Wordpress;
