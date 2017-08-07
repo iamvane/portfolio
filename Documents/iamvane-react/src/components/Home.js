@@ -56,7 +56,7 @@ const Home =()=> (
         <div className="portfolio-link bg-grey col-xs-6 col-md-3 col-md-push-6">
             <p className="coral-text">UI</p>
           <div className="portfolio-description">
-            <p className="coral-text"><strong>MindRank</strong> a hackathon winning project</p>
+            <p className="coral-text"><strong>MindRank</strong>, a hackathon winning project</p>
           </div>
         </div>
       </Link>
