@@ -28,7 +28,8 @@ export const JavascriptData =
     projects: "Red Cadillac",
     projectsLink: "http://www.thewilltodogood.org/redcaddy/",
     prev: 'CSS',
-    next: "PHP"
+    next: "PHP",
+    cta_url: "https://github.com/iamvane/analogjs"
   };
 
   export const PhpData =

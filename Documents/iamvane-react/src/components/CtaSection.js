@@ -86,8 +86,9 @@ const CTA = (props) => {
 		       		
 		       		{
 		       			(props.ctaUrl) ?
-		       				<span className={"line " + (props.title === 'PHP' && 'Wordpress E-commerce'? 'bg-green' : 
-		       											props.title === 'React' && 'JavaScript'? 'bg-light-mustard' :
+		       				<span className={"line " + (props.title === 'PHP' ? 'bg-green' : 
+		       											props.title === 'React' ? 'bg-light-mustard' :
+		       											props.title === 'JavaScript'? 'bg-light-mustard' :
 		       											props.title === 'User Interface'? 'bg-grey' :
 		       											props.title === "HTML" ? 'bg-blue':
 		       											props.title === "Redux" ? 'bg-salmon':

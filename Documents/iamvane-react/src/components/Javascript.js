@@ -33,6 +33,7 @@ const Javascript = () => {
             technologies={JavascriptData.technologies}
             projects={JavascriptData.projects}
             projectsLink={JavascriptData.projectsLink}
+            ctaUrl = {JavascriptData.cta_url}
           />
 
       <BottomNavigation 
