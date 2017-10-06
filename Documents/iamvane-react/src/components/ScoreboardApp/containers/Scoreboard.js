@@ -1,17 +1,13 @@
-import React, {Component , PropTypes} from 'react';
+import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as PlayerActionCreators from '../actions/player';
 import Player from '../components/Player';
 import Header from '../components/Header';
 import AddPlayerForm from '../components/AddPlayerForm';
-
+import PropTypes from 'prop-types';
 
 class Scoreboard extends Component{
-  
-  static propTypes={
-    players: PropTypes.array.isRequired
-  };
 
   render() {
 
@@ -50,5 +46,9 @@ const mapStateToProps = state =>(
     players: state
   }
 );
+
+Scoreboard.propTypes = {
+  players: PropTypes.array.isRequired
+}
 
 export default connect(mapStateToProps)(Scoreboard);

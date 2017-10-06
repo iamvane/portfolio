@@ -31,16 +31,13 @@ class About extends Component {
 
 	render(props){
 		
-		var points = this.state.profile;
-		
-		console.log(points);
-
+		var points = this.state.points;
 		var badgesArray = this.state.badges;
 		var badgesShort = badgesArray.slice(0, 7);
 
-		const badgest = badgesShort.map((badge) => 
+		const badges = badgesShort.map((badge) => 
 			<li key={badge.id}>
-			<a className="icon-link" href={badge.url} target="_blank"><img alt={badge.name}className="icon-big" src={badge.icon_url}/></a>
+			<a className="icon-link" href={badge.url} target="_blank" rel="noopener noreferrer"><img alt={badge.name}className="icon-big" src={badge.icon_url}/></a>
 			</li>
 		);
 
@@ -52,7 +49,7 @@ class About extends Component {
 			      
 			      <h1>Vanessa Charles Thompson</h1>
 			      <div className="bio">
-				      <p><span className="bigger-p bg-salmon"></span>Vanessa is a software engineer based in Boston. She started coding 3 years ago when building a web application for her startup. Her favorite programming language is JavaScript and she has a strong background in UX/UI design and marketing. Vanessa is a former classical piano instructor and sound designer.
+				      <p><span className="bigger-p bg-salmon"></span>Vanessa is a software engineer based in Boston. She started coding 3 years ago when building a web application for her startup, Nabi Music Center. Her favorite programming language is JavaScript and she has a strong background in UX/UI design and marketing. Vanessa is a former classical piano instructor and sound designer. She currently works as a Software Engineer at Oracle.
 					      </p>
 				  </div>
 			      <div className="col-xs-12 col-md-6">
@@ -61,9 +58,9 @@ class About extends Component {
 				      </p>
 				      <p><span className="bg-blue">Design Skills</span> Photoshop, Illustrator, Experience Design, Dreamweaver, Adobe Acrobat, Animate CC.
 				      </p>
-				      <a className="icon-link" href="https://github.com/iamvane" target="_blank"><img className="icon" alt="github-profile" src={require('./../img/github-logo.png')}/></a>
-				      <a className="icon-link" href="https://bitbucket.org/vanegeek/" target="_blank"><img className="icon" alt="bitbucket-profile" src={require('./../img/bitbucket.png')}/></a>
-				      <a className="icon-link" href="https://www.linkedin.com/in/vanessacharlesnabi/" target="_blank"><img className="icon" alt="linkedin-profile" src={require('./../img/linkedin-logo.png')}/></a>
+				      <a className="icon-link" href="https://github.com/iamvane" target="_blank" rel="noopener noreferrer"><img className="icon" alt="github-profile" src={require('./../img/github-logo.png')}/></a>
+				      <a className="icon-link" href="https://bitbucket.org/vanegeek/" target="_blank" rel="noopener noreferrer"><img className="icon" alt="bitbucket-profile" src={require('./../img/bitbucket.png')}/></a>
+				      <a className="icon-link" href="https://www.linkedin.com/in/vanessacharlesnabi/" target="_blank" rel="noopener noreferrer"><img className="icon" alt="linkedin-profile" src={require('./../img/linkedin-logo.png')}/></a>
 				      <br/>
 			      </div>
 			      <div className="col-xs-12 col-md-6">
@@ -72,16 +69,16 @@ class About extends Component {
 			      		
 			      		<div className="reviews-wrap">
 					      	<div className="reviews col-xs-6">
-					      		<a className="icon-link" href="https://www.upwork.com/o/profiles/users/_~0168fd7b152da78809/" target="_blank"><img className="icon-big" alt="upwork-profile" src={require('./../img/upwork-logo.png')}/></a>			      		
+					      		<a className="icon-link" href="https://www.upwork.com/o/profiles/users/_~0168fd7b152da78809/" target="_blank" rel="noopener noreferrer"><img className="icon-big" alt="upwork-profile" src={require('./../img/upwork-logo.png')}/></a>			      		
 					      	</div>
 					      	<div className="reviews col-xs-6">
-					      		<a className="icon-link" href="https://www.fiverr.com/vanegeek24" target="_blank"><img className="icon" alt="fiverr-profile" src={require('./../img/fiverr-logo.png')}/></a>				      		
+					      		<a className="icon-link" href="https://www.fiverr.com/vanegeek24" target="_blank" rel="noopener noreferrer"><img className="icon" alt="fiverr-profile" src={require('./../img/fiverr-logo.png')}/></a>				      		
 					      	</div>
 				      	</div>
 				      	<div className="treehouse">
-					      	<p><span className="bg-salmon">Coursework</span> Vanessa has passed <strong>{this.state.courses}</strong> lessons and scored <strong>{this.state.points}</strong> points at Treehouse! Check out her last passed course content at the badges below:</p>
-					      	<ul className="badges">{badgest}</ul>
-					      	<a className="all-badges" href="https://teamtreehouse.com/vanecharles" target="_blank">View all Badges & Full Treehouse Profile</a>
+					      	<p><span className="bg-salmon">Coursework</span> Vanessa has passed <strong>{this.state.courses}</strong> lessons and scored <strong>{points}</strong> points at Treehouse! Check out her last passed course content at the badges below:</p>
+					      	<ul className="badges">{badges}</ul>
+					      	<a className="all-badges" href="https://teamtreehouse.com/vanecharles" target="_blank" rel="noopener noreferrer">View all Badges & Full Treehouse Profile</a>
 					    </div>
 			      </div>
 			    </div> 

@@ -26,7 +26,7 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <script src="bundle.js"></script>
+    <script type="text/jsx" src="bundle.js"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,35 +39,40 @@
     -->
     <script>
 
-    (function(){
-      setInterval(function(){
-        var date = new Date();
-        updateTime(date);
-        updateClock(date);
-      }, 1000);
+      if(window.location.href === "javascript") {
+        (function(){
+          
+          setInterval(function(){
+            var date = new Date();
+            updateTime(date);
+            updateClock(date);
+          }, 1000);
 
-      function updateClock(date){
-        var secHand = document.getElementById("sec-hand").style;
-        var minHand = document.getElementById("min-hand").style;
-        var hrHand = document.getElementById("hr-hand").style;
-      
-        secHand.transform = "rotate(" + date.getSeconds() * 6 + "deg)";
-        minHand.transform = "rotate(" + date.getMinutes() * 6 + "deg)";
-        hrHand.transform = "rotate(" + (date.getHours() * 30 + date.getMinutes() * 0.5) + "deg)";
+          function updateClock(date){
+            var secHand = document.getElementById("sec-hand").style;
+            var minHand = document.getElementById("min-hand").style;
+            var hrHand = document.getElementById("hr-hand").style;
+          
+            secHand.transform = "rotate(" + date.getSeconds() * 6 + "deg)";
+            minHand.transform = "rotate(" + date.getMinutes() * 6 + "deg)";
+            hrHand.transform = "rotate(" + (date.getHours() * 30 + date.getMinutes() * 0.5) + "deg)";
+          }
+
+          function updateTime(date){
+            var timeDiv = document.getElementById("time");
+            var time =  "Local Time: " + date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds();
+            timeDiv.innerHTML = time;
+          }
+
+          function showHex(){
+            var hex =  document.querySelector("#color_hex_value"),
+                h1 = document.querySelector("h1");
+          
+            h1.style.color = document.querySelector("#color_picker").value;
+          }
+
+        })();
       }
-
-      function updateTime(date){
-        var timeDiv = document.getElementById("time");
-        var time =  "Local Time: " + date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds();
-        timeDiv.innerHTML = time;
-    }
-    function showHex(){
-      var hex =  document.querySelector("#color_hex_value"),
-          h1 = document.querySelector("h1");
-    
-      h1.style.color = document.querySelector("#color_picker").value;
-    }
-  })();
 
   </script>
   </body>

@@ -1,9 +1,7 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class AddPlayerForm extends Component{
-	static propTypes: {
-    	addPlaer: React.PropTypes.func.isRequired,
-  };
 
   state={
   	name:''
@@ -35,4 +33,8 @@ export default class AddPlayerForm extends Component{
       </div>
     );
   };
+}
+
+AddPlayerForm.propTypes = {
+  addPlayer: PropTypes.func.isRequired,
 }
