@@ -16,32 +16,35 @@ const Javascript = () => {
       
       <div className="container-wide">
           
-          <TopNavigation 
+        <TopNavigation 
           title={JavascriptData.title}
           prev={JavascriptData.prev}
-            next={JavascriptData.next}
-            prevlink={JavascriptData.prev.toLowerCase()} 
-            nextlink={JavascriptData.next.toLowerCase()} />
+          next={JavascriptData.next}
+          prevlink={JavascriptData.prev.toLowerCase()} 
+          nextlink={JavascriptData.next.toLowerCase()}
+        />
 
         </div>
 
-      <Header title={JavascriptData.title}
+        <Header 
+          title={JavascriptData.title}
           description={JavascriptData.description}
         />
 
         <CTA title={JavascriptData.title}
-            technologies={JavascriptData.technologies}
-            projects={JavascriptData.projects}
-            projectsLink={JavascriptData.projectsLink}
-            ctaUrl = {JavascriptData.cta_url}
-          />
+          technologies={JavascriptData.technologies}
+          projects={JavascriptData.projects}
+          projectsLink={JavascriptData.projectsLink}
+          ctaUrl = {JavascriptData.cta_url}
+        />
 
       <BottomNavigation 
         title={JavascriptData.title}
         prev={JavascriptData.prev}
         next={JavascriptData.next}
         prevlink={JavascriptData.prev.toLowerCase()} 
-        nextlink={JavascriptData.next.toLowerCase()} />
+        nextlink={JavascriptData.next.toLowerCase()}
+      />
        
       <div className="text-center bigger-p" id="time"></div>
        <div id="clock">
