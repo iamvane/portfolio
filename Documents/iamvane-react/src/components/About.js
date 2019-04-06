@@ -54,7 +54,7 @@ class About extends Component {
 				  </div>
 			      <div className="col-xs-12 col-md-6">
 				      
-				      <p><span className="bg-green"> Web Skills</span> JavaScript, jQuery, CSS, SASS PHP, HTML, XML, JSON, NodeJS, Bootstrap, Apache, ReactJS, AWS, Google Analytics, Google App Engine, Git, Redux, Flux, Wordpress, ExpressJS, MongoDB, MySQL, REST APIs, ES6, Babel, Webpack.
+				      <p><span className="bg-green"> Web Skills</span> ReactJS, NodeJS, GitHub, NPM, Yarn, JavaScript, jQuery, CSS, SASS, PHP, HTML, XML, JSON, Bootstrap, Python, Selenium, Jest, Enzyme, Mocha, Chai, TypeScript, Git, Redux, Flux, Wordpress, ExpressJS, MongoDB, MySQL, REST APIs, ES6, Babel, Webpack, Gulp, Express.js, JWT, Jenkins, BitBucket, TeamCity.
 				      </p>
 				      <p><span className="bg-blue">Design Skills</span> Photoshop, Illustrator, Experience Design, Dreamweaver, Adobe Acrobat, Animate CC.
 				      </p>
